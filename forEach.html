@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1> The java script forEach() array element method</h1>
+
+        <p id="demo"></p>
+        <script>
+
+            const numbers= [45,4,3,55,34,44,33];
+
+            let txt= "";
+            numbers.forEach(myFunction);
+            document.getElementById("demo").innerHTML = txt;
+
+            function myFunction(value, index, array){
+                txt += value + "<br>";
+            }
+        
+        </script>
+    </body>
+
+</html>
